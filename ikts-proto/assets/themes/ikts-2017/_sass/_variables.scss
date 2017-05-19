@@ -1,0 +1,47 @@
+// This is a partial.
+// It lies in _sass, just waiting to be imported.
+// It does not contain the YAML front matter and has no corresponding output file in the built site.
+
+//Fonts
+
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url(../fonts/Gotham-Medium.otf) format("opentype");
+}
+@font-face {
+    font-family: "Gotham-Black";
+    src: url(../fonts/Gotham-Black.otf) format("opentype");
+}
+@font-face {
+    font-family: "Gotham-Ultra";
+    src: url(../fonts/Gotham-Ultra.otf) format("opentype");
+    font-weight:800;
+}
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url(../fonts/Gotham-Bold.otf) format("opentype");
+}
+@font-face {
+    font-family: "Gotham-MediumItalic";
+    src: url(../fonts/Gotham-MediumItalic.otf) format("opentype");
+}
+@font-face {
+    font-family: "Gotham-Light";
+    src: url(../fonts/Gotham-Light.otf) format("opentype");
+    font-weight: 200;
+    /*font-style: italic, oblique;*/
+}
+
+//Colours
+
+$banner-background: #0955a0;/*blue*/
+$success: #009400;/*green*/
+$success-light: #41a548; /*light green*/
+$danger: #de2130;/*red*/
+$primary-brand: #333333;/*dark grey*/
+$grey1: #ededed;
+$grey2:#fafafa;
+$grey3:#e4e3e3;
+$grey4:#cfcdcd;
+$grey5:#6d6b6b;
+$link:#018fe2;
